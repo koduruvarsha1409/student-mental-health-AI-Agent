@@ -9,7 +9,7 @@ from datetime import datetime
 # Load Model and Files
 # ----------------------------
 
-with open("best_model.pkl", "rb") as f:
+with open("student_mental_health_xgboost.pkl", "rb") as f:
     model = pickle.load(f)
 
 with open("scaler.pkl", "rb") as f:
