@@ -105,10 +105,6 @@ if st.button("Predict"):
             label_encoders["Marital status"].transform([marital])[0]
         ],
 
-        "Do you have Depression?": [
-            label_encoders["Do you have Depression?"].transform([depression])[0]
-        ],
-
         "Do you have Anxiety?": [
             label_encoders["Do you have Anxiety?"].transform([anxiety])[0]
         ],
