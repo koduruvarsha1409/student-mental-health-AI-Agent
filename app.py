@@ -11,10 +11,6 @@ from datetime import datetime
 
 with open("student_mental_health_xgboost.pkl", "rb") as f:
     model = pickle.load(f)
-
-with open("scaler.pkl", "rb") as f:
-    scaler = pickle.load(f)
-
 with open("label_encoders.pkl", "rb") as f:
     label_encoders = pickle.load(f)
 
